@@ -9,7 +9,7 @@ createServer({
     server.create("recipe", {
       id: "1",
       name: "Mushroom Skewer",
-      ingredients: ["Mushroom (Any)"],
+      ingredients: ["mushroom"],
       imageURL:
         "https://img.game8.co/3691866/80b6ab7dd1e5570f94569b561dc46dde.png/show",
       hearts: 1,
@@ -18,7 +18,7 @@ createServer({
     server.create("recipe", {
       id: "2",
       name: "Meat and Mushroom Skewer",
-      ingredients: ["Mushroom (Any)", "Meat (Any)"],
+      ingredients: ["mushroom", "meat"],
       imageURL:
         "https://img.game8.co/3704210/862d2c678a656fa877518b71ba078f9d.png/show",
       hearts: 3,

@@ -1,9 +1,13 @@
-import './App.css';
-import Home from './Home';
+import { BrowserRouter } from "react-router-dom";
+import "./App.css";
+import Home from "./Home";
+import "./server";
 
 function App() {
   return (
-    <Home />
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
 }
 
