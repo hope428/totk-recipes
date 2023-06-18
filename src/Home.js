@@ -9,26 +9,26 @@ export default function Home() {
     const ingredient = document.getElementById("query").value;
     console.log(ingredient);
 
-    fetch("/api/recipes")
+    fetch(`/api/recipes/${ingredient}`)
       .then((res) => res.json())
-      .then((data) => setRecipes(data.recipes));
+      .then((data) => console.log(data));
 
-    filterResults(recipes, ingredient);
+    // filterResults(recipes, ingredient);
   };
 
-  const filterResults = (foundRecipes, query) => {
-    let matches = [];
+//   const filterResults = (foundRecipes, query) => {
+//     let matches = [];
 
-    for (let i = 0; i < foundRecipes.length; i++) {
-      const current = foundRecipes[i];
+//     for (let i = 0; i < foundRecipes.length; i++) {
+//       const current = foundRecipes[i];
 
-      if (current.ingredients.includes(query)) {
-        matches.push(current);
-      }
-    }
+//       if (current.ingredients.includes(query)) {
+//         matches.push(current);
+//       }
+//     }
 
-    setResults(matches);
-  };
+//     setResults(matches);
+//   };
 
 
   return (
@@ -38,7 +38,7 @@ export default function Home() {
       <button onClick={handleSearch}>Search</button>
 
       <div>
-        {results.map(res => res.name)}
+        {/* {results.map(res => <h1>{res.name}</h1>)} */}
       </div>
     </div>
   );

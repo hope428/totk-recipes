@@ -30,6 +30,38 @@ createServer({
         "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640",
     });
 
+    server.create("recipe", {
+        id: "4",
+        name: "Meat Skewer",
+        ingredients: ["meat"],
+        imageURL:
+          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640",
+      });
+
+      server.create("recipe", {
+        id: "5",
+        name: "Fish Skewer",
+        ingredients: ["fish"],
+        imageURL:
+          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640",
+      });
+
+      server.create("recipe", {
+        id: "6",
+        name: "Seafood Skewer",
+        ingredients: ["snail", "crab"],
+        imageURL:
+          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640",
+      });
+
+      server.create("recipe", {
+        id: "7",
+        name: "Copious Meat Skewers",
+        ingredients: ["any 4 different meat"],
+        imageURL:
+          "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640",
+      });
+
   },
 
   routes() {
@@ -39,9 +71,9 @@ createServer({
       return schema.recipes.all();
     });
 
-    this.get("/recipes/:id", (schema, request) => {
-      const id = request.params.id;
-      return schema.recipes.find(id);
+    this.get("/recipes/:query", (schema, request) => {
+      const query = request.params.query;
+      return schema.recipes.findBy({ingredients: query});
     });
   },
 });
