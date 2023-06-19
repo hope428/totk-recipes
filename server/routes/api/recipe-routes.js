@@ -9,3 +9,5 @@ const {
 router.route('/').get(getAllRecipes)
 router.route('/:query').get(getSearchedRecipes)
 router.route('/:id').get(getSingleRecipe)
+
+module.exports = router
