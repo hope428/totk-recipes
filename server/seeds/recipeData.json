@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Mushroom Skewer",
+    "ingredients": ["mushroom"],
+    "recipe": ["Mushroom (Any)"]
+  },
+  {
+    "name": "Meat and Mushroom Skewer",
+    "ingredients": ["meat", "mushroom"],
+    "recipe": ["Mushroom (Any)", "Meat (Any)"]
+  },
+  {
+    "name": "Fish and Mushroom Skewer",
+    "ingredients": ["fish", "mushroom"],
+    "recipe": ["Fish (Any)", "Mushroom (Any)"]
+  },
+  {
+    "name": "Meat Skewer",
+    "ingredients": ["meat"],
+    "recipe": ["Meat (Any)"]
+  },
+  {
+    "name": "Fish Skewer",
+    "ingredients": ["fish"],
+    "recipe": ["Fish (Any)"]
+  },
+  {
+    "name": "Seafood Skewer",
+    "ingredients": ["snal", "crab"],
+    "recipe": ["Snail (Any) or Crab (Any)"]
+  },
+  {
+    "name": "Copious Meat Skewers",
+    "ingredients": ["meat"],
+    "recipe": ["Any four different meat"]
+  },
+  {
+    "name": "Copious Seafood Skewers",
+    "ingredients": ["fish"],
+    "recipe": ["Any four different fish"]
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  },
+  {
+    "name": "",
+    "ingredients": []
+  }
+]
