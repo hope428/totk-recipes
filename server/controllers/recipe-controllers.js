@@ -13,8 +13,14 @@ module.exports = {
     }
   },
 
-  async getSearchedRecipes(req, res) {
-    return res.status(202).json("Search results go here")
+  async getSearchedRecipes({params}, res) {
+
+    try {
+        const searchResults = await Recipe.find({ingredients: params.query})
+        return res.status(200).json(searchResults)
+    } catch (err) {
+        return res.status(400).json(err)
+    }
   },
 
   async getSingleRecipe(req, res) {
