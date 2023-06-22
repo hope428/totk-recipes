@@ -1,19 +1,20 @@
 body {
-    background-color: #d3c896;
+  background-color: #d3c896;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #B4A97F;
+  background-color: #b4a97f;
   color: #504515;
+  box-shadow: 1px 3px 3px rgb(103, 53, 22);
 }
 
 .logo {
-    font-weight: bold;
-    font-size: 2rem;
-    font-family: 'Amatic SC', sans-serif;;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Amatic SC", sans-serif;
 }
 
 .nav-links {
@@ -34,6 +35,34 @@ a {
 }
 
 a:hover {
-    color: rgb(77, 37, 13);
-    text-decoration: underline;
+  color: rgb(77, 37, 13);
+  text-decoration: underline;
+}
+
+.search-field {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-field input {
+  width: 40%;
+  height: 3rem;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 3px 3px rgb(103, 53, 22);
+  text-align: center;
+}
+
+.search-field button {
+  height: 3rem;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(103, 53, 22);
+  color: white;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 0 1rem;
 }

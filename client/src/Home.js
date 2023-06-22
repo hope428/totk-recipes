@@ -20,10 +20,17 @@ export default function Home() {
   return (
     <div className="container">
       <Header />
-      <input id="query" type="text" placeholder="Search an ingredient" />
-      <button onClick={handleSearch}>Search</button>
 
-      <div>{results.map(res => <h1>{res.name}</h1>)}</div>
+      <div>
+        {results.length > 0 ? (
+          results.map((res) => <img src={res.fullImage}/>)
+        ) : (
+          <div className="search-field">
+            <input id="query" type="text" placeholder="Search an ingredient" />
+            <button onClick={handleSearch}>Search</button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -2,41 +2,49 @@
   {
     "name": "Mushroom Skewer",
     "ingredients": ["mushroom"],
-    "recipe": ["Mushroom (Any)"]
+    "recipe": ["Mushroom (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/9/92/1-mushroom-skewer--totk-recipe-guide.jpg?width=640"
   },
   {
     "name": "Meat and Mushroom Skewer",
     "ingredients": ["meat", "mushroom"],
-    "recipe": ["Mushroom (Any)", "Meat (Any)"]
+    "recipe": ["Mushroom (Any)", "Meat (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/1/1d/2-meat-and-mushroom-skewer-totk-recipe-guide.jpg?width=640"
   },
   {
     "name": "Fish and Mushroom Skewer",
     "ingredients": ["fish", "mushroom"],
-    "recipe": ["Fish (Any)", "Mushroom (Any)"]
+    "recipe": ["Fish (Any)", "Mushroom (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640"
   },
   {
     "name": "Meat Skewer",
     "ingredients": ["meat"],
-    "recipe": ["Meat (Any)"]
+    "recipe": ["Meat (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/6/69/4-meat-skewer-totk-recipe-guide.jpg?width=640"
   },
   {
     "name": "Fish Skewer",
     "ingredients": ["fish"],
-    "recipe": ["Fish (Any)"]
+    "recipe": ["Fish (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/b/b8/5-fish-skewer-totk-recipe-guide.jpg?width=640"
   },
   {
     "name": "Seafood Skewer",
     "ingredients": ["snal", "crab"],
-    "recipe": ["Snail (Any) or Crab (Any)"]
+    "recipe": ["Snail (Any) or Crab (Any)"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/2/2c/6-recipe-totk.jpg?width=640"
   },
   {
     "name": "Copious Meat Skewers",
     "ingredients": ["meat"],
-    "recipe": ["Any four different meat"]
+    "recipe": ["Any four different meat"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/9/9e/7-recipe-totk.jpg?width=640"
   },
   {
     "name": "Copious Seafood Skewers",
     "ingredients": ["fish"],
-    "recipe": ["Any four different fish"]
+    "recipe": ["Any four different fish"],
+    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/b/bc/8-recipe-totk.jpg?width=640"
   }
 ]
