@@ -1,0 +1,39 @@
+body {
+    background-color: #d3c896;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #B4A97F;
+  color: #504515;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Amatic SC', sans-serif;;
+}
+
+.nav-links {
+  position: absolute;
+  list-style-type: none;
+  justify-self: flex-end;
+  right: 0;
+}
+
+.nav-links li a {
+  padding-right: 1rem;
+}
+
+a {
+  color: #504515;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgb(77, 37, 13);
+    text-decoration: underline;
+}

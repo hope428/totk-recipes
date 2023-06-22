@@ -6,7 +6,6 @@ export default function Home() {
 
   const handleSearch = () => {
     const ingredient = document.getElementById("query").value;
-    console.log(ingredient);
 
     fetch(`/api/recipes/${ingredient}`, {
       method: "GET",
