@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #d3c896;
 }
@@ -76,5 +80,22 @@ a:hover {
 .recipe-card {
   border: 1px solid #504515;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  color: #504515;
+}
 
+.recipe-img {
+  max-width: 90%;
+}
+
+.recipe-title {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px){
+  
 }

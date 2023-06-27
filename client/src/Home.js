@@ -6,6 +6,7 @@ import RecipeCard from "./components/RecipeCard";
 
 export default function Home() {
   const [results, setResults] = React.useState([]);
+  const [slides, setSlides] = React.useState(0);
 
   const handleSearch = () => {
     const ingredient = document.getElementById("query").value;
@@ -20,20 +21,42 @@ export default function Home() {
       .then((data) => setResults(data));
   };
 
+  const setSlidesPerView = () => {
+    setSlides(
+      window.innerWidth <= 550
+        ? 1
+        : window.innerWidth <= 720
+        ? 2
+        : window.innerWidth > 720
+        ? 3
+        : 0
+    );
+  };
+
+  React.useEffect(() => {
+    setSlidesPerView();
+
+    window.addEventListener("resize", setSlidesPerView);
+
+    return () => {
+      window.removeEventListener("resize", setSlidesPerView);
+    };
+  }, []);
+
   return (
     <div className="container">
       <Header />
 
       <Swiper
         spaceBetween={50}
-        slidesPerView={3}
+        slidesPerView={slides}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {results.length > 0 ? (
           results.map((res) => (
             <SwiperSlide>
-              <RecipeCard recipe={res}/>
+              <RecipeCard recipe={res} />
             </SwiperSlide>
           ))
         ) : (
