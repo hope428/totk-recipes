@@ -5,7 +5,7 @@ export default function RecipeCard({ recipe }) {
     <div className="recipe-card">
       <p className="recipe-title">{recipe.name}</p>
       <img className="recipe-img" alt={recipe.name} src={recipe.fullImage} />
-      <ul>
+      <ul className="recipe-steps">
         {recipe.recipe.map((step) => {
            return <li>{step}</li>
         })}

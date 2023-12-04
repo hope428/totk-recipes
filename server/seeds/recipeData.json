@@ -3,48 +3,135 @@
     "name": "Mushroom Skewer",
     "ingredients": ["mushroom"],
     "recipe": ["Mushroom (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/9/92/1-mushroom-skewer--totk-recipe-guide.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/1/1d/Mushroom_Skewer_-_TotK_icon.png/144px-Mushroom_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Meat and Mushroom Skewer",
     "ingredients": ["meat", "mushroom"],
     "recipe": ["Mushroom (Any)", "Meat (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/1/1d/2-meat-and-mushroom-skewer-totk-recipe-guide.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/e/ed/Meat_and_Mushroom_Skewer_-_TotK_icon.png/144px-Meat_and_Mushroom_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Fish and Mushroom Skewer",
     "ingredients": ["fish", "mushroom"],
     "recipe": ["Fish (Any)", "Mushroom (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/a/ad/3-fish-and-mushroom-skewer-totk-recipe-guide.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/3/33/Fish_and_Mushroom_Skewer_-_TotK_icon.png/144px-Fish_and_Mushroom_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Meat Skewer",
     "ingredients": ["meat"],
     "recipe": ["Meat (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/6/69/4-meat-skewer-totk-recipe-guide.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/7/78/Meat_Skewer_-_TotK_icon.png/144px-Meat_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Fish Skewer",
     "ingredients": ["fish"],
     "recipe": ["Fish (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/b/b8/5-fish-skewer-totk-recipe-guide.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/7/7d/Fish_Skewer_-_TotK_icon.png/144px-Fish_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Seafood Skewer",
     "ingredients": ["snal", "crab"],
     "recipe": ["Snail (Any) or Crab (Any)"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/2/2c/6-recipe-totk.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/b/b8/Seafood_Skewer_-_TotK_icon.png/129px-Seafood_Skewer_-_TotK_icon.png"
   },
   {
     "name": "Copious Meat Skewers",
     "ingredients": ["meat"],
     "recipe": ["Any four different meat"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/9/9e/7-recipe-totk.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/6/65/Copious_Meat_Skewers_-_TotK_icon.png/134px-Copious_Meat_Skewers_-_TotK_icon.png"
   },
   {
     "name": "Copious Seafood Skewers",
     "ingredients": ["fish"],
     "recipe": ["Any four different fish"],
-    "fullImage": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/b/bc/8-recipe-totk.jpg?width=640"
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/0/03/Copious_Seafood_Skewers_-_TotK_icon.png/144px-Copious_Seafood_Skewers_-_TotK_icon.png"
+  },
+  {
+    "name": "Steamed Fruit",
+    "ingredients": ["fruit"],
+    "recipe": ["Any leafy vegetable and any fruit except tomatoes"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/9/93/Steamed_Fruit_-_TotK_icon.png/144px-Steamed_Fruit_-_TotK_icon.png"
+  },
+  {
+    "name": "Steamed Tomatoes",
+    "ingredients": ["fruit"],
+    "recipe": ["Any leafy vegetable and tomatoes"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/0/0f/Steamed_Tomatoes_-_TotK_icon.png/144px-Steamed_Tomatoes_-_TotK_icon.png"
+  },
+  {
+    "name": "Steamed Mushrooms",
+    "ingredients": ["fruit"],
+    "recipe": ["Any leafy vegetable and any mushroom"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/1/17/Steamed_Mushrooms_-_TotK_icon.png/144px-Steamed_Mushrooms_-_TotK_icon.png"
+  },
+  {
+    "name": "Steamed Meat",
+    "ingredients": ["fruit"],
+    "recipe": ["Any leafy vegetable and any meat"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/f/f1/Steamed_Meat_-_TotK_icon.png/144px-Steamed_Meat_-_TotK_icon.png"
+  },
+  {
+    "name": "Steamed Fish",
+    "ingredients": ["fruit"],
+    "recipe": ["Any leafy vegetable and any fish"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/4/48/Steamed_Fish_-_TotK_icon.png/144px-Steamed_Fish_-_TotK_icon.png"
+  },
+  {
+    "name": "Sautéed Peppers",
+    "ingredients": ["spicy pepper", "pepper"],
+    "recipe": [
+      "Spicy Peppers",
+      "Note that this can only be cooked as the \"Spicy\" variant, as adding any other ingredient will change the meal name."
+    ],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/4/48/Steamed_Fish_-_TotK_icon.png/144px-Steamed_Fish_-_TotK_icon.png"
+  },
+  {
+    "name": "Sautéed Nuts",
+    "ingredients": [
+      "acorn",
+      "chickaloo tree nut",
+      "chickaloo",
+      "tree nut",
+      "nut"
+    ],
+    "recipe": ["Acorns and/or Chickaloo Tree Nuts"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/2/21/Saut%C3%A9ed_Nuts_-_TotK_icon.png/144px-Saut%C3%A9ed_Nuts_-_TotK_icon.png"
+  },
+  {
+    "name": "Fried Wild Greens",
+    "ingredients": [
+      "acorn",
+      "chickaloo tree nut",
+      "chickaloo",
+      "tree nut",
+      "nut"
+    ],
+    "recipe": ["Any leafy vegetable"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/5/5a/Fried_Wild_Greens_-_TotK_icon.png/144px-Fried_Wild_Greens_-_TotK_icon.png"
+  },
+  {
+    "name": "Copious Fried Wild Greens",
+    "ingredients": [
+      "acorn",
+      "chickaloo tree nut",
+      "chickaloo",
+      "tree nut",
+      "nut"
+    ],
+    "recipe": ["Any four different kinds of leafy vegetable"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/0/03/Copious_Fried_Wild_Greens_-_TotK_icon.png/144px-Copious_Fried_Wild_Greens_-_TotK_icon.png"
+  },
+  {
+    "name": "Cooked Stambulb",
+    "ingredients": [
+      "acorn",
+      "chickaloo tree nut",
+      "chickaloo",
+      "tree nut",
+      "nut"
+    ],
+    "recipe": ["Any four different kinds of leafy vegetable"],
+    "fullImage": "https://www.zeldadungeon.net/wiki/images/thumb/0/03/Copious_Fried_Wild_Greens_-_TotK_icon.png/144px-Copious_Fried_Wild_Greens_-_TotK_icon.png"
   }
 ]

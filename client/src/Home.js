@@ -25,9 +25,9 @@ export default function Home() {
     setSlides(
       window.innerWidth <= 550
         ? 1
-        : window.innerWidth <= 720
+        : window.innerWidth <= 900
         ? 2
-        : window.innerWidth > 720
+        : window.innerWidth > 900
         ? 3
         : 0
     );
