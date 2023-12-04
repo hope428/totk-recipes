@@ -26,7 +26,9 @@ export default function List(){
         <>
         <Header />
         <ul className="recipe-container">
-
+            {results.map(recipe => {
+                return <RecipeCard recipe={recipe} />
+            })}
         </ul>
         </>
     )
