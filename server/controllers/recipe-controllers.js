@@ -22,7 +22,8 @@ module.exports = {
     }
   },
 
-  async getSingleRecipe(req, res) {
-    return res.status(202).json("Single recipe data goes here");
+  async getSingleRecipe({params}, res) {
+    const recipe = await Recipe.findById(params.id)
+    return res.status(200).json(recipe);
   },
 };

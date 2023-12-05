@@ -8,6 +8,6 @@ const {
 
 router.route('/').get(getAllRecipes)
 router.route('/:query').get(getSearchedRecipes)
-router.route('/:id').get(getSingleRecipe)
+router.route('/id/:id').get(getSingleRecipe)
 
 module.exports = router
